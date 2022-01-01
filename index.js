@@ -4,7 +4,7 @@ const mathLib = require("./mathLib/math")
 const app = {}
 
 app.config = {
-  timeBetweenJokes: 1000,
+  timeBetweenJokes: 5000,
 }
 
 app.printAJoke = () => {
